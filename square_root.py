@@ -26,7 +26,7 @@ input_number = input("Enter a number > ")
 # Convert input_number to a float
 try:
     number = float(input_number)
-except:
+except ValueError:
     print ("You did not enter a number.")
     exit()
 
