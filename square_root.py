@@ -6,11 +6,11 @@ import cmath
 
 # returns the next estimate using Newton's Method
 def new_estimate(old_estimate,number_):
-    return old_estimate - (old_estimate**2 - number_)/(2*old_estimate)
+    return old_estimate - (old_estimate**2 - number_)/(2 * old_estimate)
 
 # returns the number truncated to the requested number of decimals
 def truncate(number_,decimals=0):
-    return math.floor(abs(number_)*(10**decimals))/(10**decimals)
+    return math.floor(abs(number_)*(10**decimals)) / (10**decimals)
 
 # returns true if estimates are equal to the specified decimal place
 def compare_estimates(estimate1,estimate2,decimals):
