@@ -1,6 +1,6 @@
 import math
 import cmath
-square_root=int(input("Enter a positive number:"))
+square_root=float(input("Enter a positive number:"))
 #guess=int(input("What is your initial guess? "))
 guess=1
 imagineguess=1j
