@@ -51,5 +51,6 @@ while True:
     # Else repace old estimate with new estimate and repeat
     current_estimate = next_estimate
     number_of_loops += 1
+
 # Print Results
 print("The square root of {} is {}.".format(number,current_estimate))
