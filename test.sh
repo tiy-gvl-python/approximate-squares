@@ -2,7 +2,7 @@
 
 describe "square_root.py: returns the approximate square root of a positive number"
 
-sqr="python square_root.py"
+sqr="python3 square_root.py"
 
 it_works_for_known_values() {
   out="$(echo 4 | $sqr)"
