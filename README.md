@@ -1,4 +1,4 @@
-# Run square_root.py.
+# Run square_root.py using Python3.
 ### Enter a guess at what you think the square root might be and let the program take over from there.
 ### You may enter '1' but larger numbers will need some kind of larger guess to get a correct answer.
 
