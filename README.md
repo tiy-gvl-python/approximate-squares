@@ -2,10 +2,8 @@
 
 ## Description
 
-Write a program that asks the user for a positive number and then outputs the
-approximated square root of the number. Use Newton's method to find the square
-root, with epsilon = 0.01. (_Epsilon_ is the allowed error, plus or minus, when
-you square your calculated square root and compare it to your original number.)
+A program that uses Newton's method to find the approximate square root of a given number.
+
 
 ## Objectives
 
