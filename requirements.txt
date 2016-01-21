@@ -1,1 +1,1 @@
-ipython[all]
+python[all]

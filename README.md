@@ -1,4 +1,10 @@
-# Approximate a square root
+# Run square_root.py using Python3.
+### Enter a guess at what you think the square root might be and let the program take over from there.
+### You may enter '1' but larger numbers will need some kind of larger guess to get a correct answer.
+
+-------------------
+
+## Approximate a square root
 
 ## Description
 
@@ -47,9 +53,6 @@ Enter a positive number: 20
 The square root of 20 is 4.472137791286727.
 ```
 
-Your program will be tested with the script `test.sh`. To run this script, run
-`brew install roundup` first.
-
 ## Normal Mode
 
 Newton's method of successive approximations says that whenever we have a guess
@@ -68,11 +71,6 @@ the current guess.
 
 Examine the input into your program and give an appropriate error message if
 a non-number or negative number is given.
-
-## Extra Hard Mode
-
-Look up [complex numbers in Python][]. Allow negative numbers as input into
-your program.
 
 ## Additional Resources
 
